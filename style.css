@@ -1,0 +1,25 @@
+*{
+    padding: 0;margin: 0;
+}
+.container{
+    border: 2px black solid;
+    width: fit-content;
+    
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    padding: 1vh;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+img{
+    width:30vh;
+}
